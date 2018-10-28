@@ -25,3 +25,8 @@ This will compile YCM with C-family languages support. See https://valloric.gith
 
 6. Your terminal must be able to display non-ASCII symbols which are part of layout. In `fonts/` folder you may
 find .ttf font for your terminal application.
+
+## Note
+
+YCM may require (see YCM guide for details) config file in project's root to enable C/C++ completions. You may find it in 
+`ycm-config/` folder.
