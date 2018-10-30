@@ -28,5 +28,8 @@ find .ttf font for your terminal application.
 
 ## Note
 
-YCM may require (see YCM guide for details) config file in project's root to enable C/C++ completions. You may find it in 
+* YCM may require (see YCM guide for details) config file in project's root to enable C/C++ completions. You may find it in 
 `ycm-config/` folder.
+
+* Also I use Flake8 for linting, so you'll probably need to install it too. Use, e.g.
+`pip install flake8`
