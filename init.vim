@@ -75,10 +75,13 @@ Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
+if (has("termguicolors"))
+set termguicolors
+endif
 
 " General settings
 syntax on
-colorscheme oceanicnext
+colorscheme OceanicNext
 set encoding=UTF-8
 set number
 set relativenumber
